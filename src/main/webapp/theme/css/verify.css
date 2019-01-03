@@ -1,0 +1,75 @@
+#web {
+				margin: 0 auto;
+				width: 400px
+			}
+			
+			.title {
+				font-size: 18px;
+				padding-left: 25px;
+				border-left: solid #999 1px;
+				margin-bottom: 40px
+			}
+			
+			.form_item {
+				width: 398px;
+				height: 52px;
+				border: solid #ddd 1px;
+				position: relative;
+			}
+			
+			.form_item label {
+				width: 90px;
+				height: 52px;
+				line-height: 52px;
+				float: left;
+				padding-left: 20px;
+				font-size: 14px;
+				color: #666
+			}
+			
+			.form_item .code {
+				position: absolute;
+				right: 0;
+				top: 0;
+				text-align: center;
+			}
+			
+			.form_item input {
+				border: 0;
+				font-size: 14px;
+				width: 190px;
+				height: 19px;
+				padding-bottom: 11px;
+				padding-left: 20px;
+				padding-top: 16px
+			}
+			
+			.input-tip {
+				color: #c5c5c5;
+				height: 27px;
+				font-size: 12px;
+				padding-top: 5px
+			}
+			
+			.input-tip span {
+				height: 22px;
+				line-height: 22px
+			}
+			
+
+			
+			.input-tip {
+				color: #c5c5c5;
+				height: 27px;
+				font-size: 12px;
+				padding-bottom: 5px;
+				margin-bottom: 5px;
+				margin-top: -5px;
+			}
+			
+			.input-tip span {
+				height: 22px;
+				line-height: 22px;
+				text-align: center;
+			}
+			

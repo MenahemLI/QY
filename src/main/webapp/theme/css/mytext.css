@@ -1,0 +1,492 @@
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 3px;
+    color: rgba(0,0,0, 0.87);
+    background: #fff;
+}
+.card [data-background-color] {
+    color: #FFFFFF;
+}
+.card [data-background-color="purple"] {
+    background: linear-gradient(60deg, #ab47bc, #22f0d9);
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+.card [data-background-color="green"] {
+    background:linear-gradient(60deg, #26d6e5, #24b67c);
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+.card .card-header {
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #999999;
+}
+.card .card-header .title {
+    color: #FFFFFF;
+}
+.card .title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+h4, .h4 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+.card .card-header .category {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.62);
+}
+p {
+    margin: 0 0 10px;
+}
+.card .card-content {
+    padding: 15px 20px;
+}
+.card {
+    color: rgba(0,0,0, 0.87);
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card form [class*="col-"]:first-child {
+    padding-left: 15px;
+}
+.card form [class*="col-"] {
+    padding: 6px;
+}
+.col-md-5 {
+    width: 41.66666667%;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.form-group {
+    padding-bottom: 7px;
+    margin: 27px 0 0 0;
+}
+.form-group {
+    position: relative;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-6 {
+    width: 50%;
+}
+
+.form-control, .form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group {
+  position: relative;
+}
+.form-group.label-static label.control-label, .form-group.label-placeholder label.control-label, .form-group.label-floating label.control-label {
+  position: absolute;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+.form-group.label-floating label.control-label {
+  will-change: left, top, contents;
+}
+.form-group.label-placeholder:not(.is-empty) label.control-label {
+  display: none;
+}
+.form-group .help-block {
+  position: absolute;
+  display: none;
+}
+.form-group.is-focused .form-control {
+  outline: none;
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-size: 100% 2px, 100% 1px;
+  box-shadow: none;
+  transition-duration: 0.3s;
+}
+.form-group.is-focused .form-control .material-input:after {
+  background-color: #9c27b0;
+}
+.form-group.is-focused.form-info .form-control {
+  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.form-success .form-control {
+  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.form-warning .form-control {
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.form-danger .form-control {
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.form-rose .form-control {
+  background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.form-white .form-control {
+  background-image: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused.label-placeholder label,
+.form-group.is-focused.label-placeholder label.control-label {
+  color: #AAAAAA;
+}
+.form-group.is-focused .help-block {
+  display: block;
+}
+.form-group.has-warning .form-control {
+  box-shadow: none;
+}
+.form-group.has-warning.is-focused .form-control {
+  background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.has-warning label.control-label,
+.form-group.has-warning .help-block {
+  color: #ff9800;
+}
+.form-group.has-error .form-control {
+  box-shadow: none;
+}
+.form-group.has-error.is-focused .form-control {
+  background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.has-error label.control-label,
+.form-group.has-error .help-block {
+  color: #f44336;
+}
+.form-group.has-success .form-control {
+  box-shadow: none;
+}
+.form-group.has-success.is-focused .form-control {
+  background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.has-success label.control-label,
+.form-group.has-success .help-block {
+  color: #4caf50;
+}
+.form-group.has-info .form-control {
+  box-shadow: none;
+}
+.form-group.has-info.is-focused .form-control {
+  background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.has-info label.control-label,
+.form-group.has-info .help-block {
+  color: #00bcd4;
+}
+.form-group textarea {
+  resize: none;
+}
+.form-group textarea ~ .form-control-highlight {
+  margin-top: -11px;
+}
+.form-group select {
+  appearance: none;
+}
+.form-group select ~ .material-input:after {
+  display: none;
+}
+
+.form-control {
+  margin-bottom: 7px;
+}
+.form-control::-moz-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-control:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-control::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+
+.checkbox label,
+.radio label,
+label {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #0C0C0C;
+  font-weight: 400;
+}
+
+label.control-label {
+  font-size: 11px;
+  line-height: 1.07143;
+  color: #AAAAAA;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+
+.help-block {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+.form-group {
+  padding-bottom: 7px;
+  margin: 27px 0 0 0;
+}
+.form-group .form-control {
+  margin-bottom: 7px;
+}
+.form-group .form-control::-moz-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group .form-control:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group .form-control::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group .checkbox label,
+.form-group .radio label,
+.form-group label {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group label.control-label {
+  font-size: 11px;
+  line-height: 1.07143;
+  color: #AAAAAA;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+.form-group .help-block {
+  margin-top: 0;
+  font-size: 11px;
+}
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+  top: -7px;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+.form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
+  top: -28px;
+  left: 0;
+  font-size: 11px;
+  line-height: 1.07143;
+}
+.form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  top: -28px;
+  left: 0;
+  font-size: 11px;
+  line-height: 1.07143;
+}
+
+.form-group.form-group-sm {
+  padding-bottom: 3px;
+  margin: 21px 0 0 0;
+}
+.form-group.form-group-sm .form-control {
+  margin-bottom: 3px;
+}
+.form-group.form-group-sm .form-control::-moz-placeholder {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-sm .form-control:-ms-input-placeholder {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-sm .form-control::-webkit-input-placeholder {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-sm .checkbox label,
+.form-group.form-group-sm .radio label,
+.form-group.form-group-sm label {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-sm label.control-label {
+  font-size: 9px;
+  line-height: 1.125;
+  color: #AAAAAA;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+.form-group.form-group-sm .help-block {
+  margin-top: 0;
+  font-size: 9px;
+}
+.form-group.form-group-sm.label-floating label.control-label, .form-group.form-group-sm.label-placeholder label.control-label {
+  top: -11px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.form-group.form-group-sm.label-static label.control-label, .form-group.form-group-sm.label-floating.is-focused label.control-label, .form-group.form-group-sm.label-floating:not(.is-empty) label.control-label {
+  top: -25px;
+  left: 0;
+  font-size: 9px;
+  line-height: 1.125;
+}
+.form-group.form-group-sm.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  top: -25px;
+  left: 0;
+  font-size: 9px;
+  line-height: 1.125;
+}
+
+.form-group.form-group-lg {
+  padding-bottom: 9px;
+  margin: 30px 0 0 0;
+}
+.form-group.form-group-lg .form-control {
+  margin-bottom: 9px;
+}
+.form-group.form-group-lg .form-control::-moz-placeholder {
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-lg .form-control:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-lg .form-control::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-lg .checkbox label,
+.form-group.form-group-lg .radio label,
+.form-group.form-group-lg label {
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #AAAAAA;
+  font-weight: 400;
+}
+.form-group.form-group-lg label.control-label {
+  font-size: 14px;
+  line-height: 1.0;
+  color: #AAAAAA;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+.form-group.form-group-lg .help-block {
+  margin-top: 0;
+  font-size: 14px;
+}
+.form-group.form-group-lg.label-floating label.control-label, .form-group.form-group-lg.label-placeholder label.control-label {
+  top: -5px;
+  font-size: 18px;
+  line-height: 1.33333;
+}
+.form-group.form-group-lg.label-static label.control-label, .form-group.form-group-lg.label-floating.is-focused label.control-label, .form-group.form-group-lg.label-floating:not(.is-empty) label.control-label {
+  top: -32px;
+  left: 0;
+  font-size: 14px;
+  line-height: 1.0;
+}
+.form-group.form-group-lg.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  top: -32px;
+  left: 0;
+  font-size: 14px;
+  line-height: 1.0;
+}
+
+select.form-control {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+.form-group.is-focused select.form-control {
+  box-shadow: none;
+  border-color: #D2D2D2;
+}
+select.form-control[multiple], .form-group.is-focused select.form-control[multiple] {
+  height: 85px;
+}
+
+.input-group-btn .btn {
+  margin: 0 0 7px 0;
+}
+
+.form-group.form-group-sm .input-group-btn .btn {
+  margin: 0 0 3px 0;
+}
+.form-group.form-group-lg .input-group-btn .btn {
+  margin: 0 0 9px 0;
+}
+
+.input-group .input-group-btn {
+  padding: 0 12px;
+}
+.input-group .input-group-addon {
+  border: 0;
+  background: transparent;
+  padding: 6px 15px 0px;
+}
+
+.form-group input[type=file] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
